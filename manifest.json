@@ -21,14 +21,14 @@
    } ],
    "description": "Tool to provide easier access to research work",
    "icons": {
-      "16": "assets/icon-color.png"
+      "16": "assets/sci-hub.png"
    },
    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA8we6CNou+woN7PezbyjZPrOK59TdburYQNyb78+9NnCrPY4YfWz/VOY3G+hh059IF7lHp5OoubXGxf9Tjv4eKL4J9vl5qS66BwN62igJHTUWkKTqLTwSzHaTpPHj+9fTTUXkG24WkSZN74NZrSOCf39dltS+2w91vsEqdQodm9OM7LnXB2jGTNZEfPsMDjaYz5SNi3VFZEcmX05G6Pes3Aoac6fIbQgmy/2M2S7KFMpadexdYDJbS3BismFyuhZuc9FaGdFjn8xdP9oKvlu1u9YT+kzenoRJhGfFnUqkhKmc0pKkMyQoSxk+grTc46nNkorCVxdtWd7iU/vs/p6FCQIDAQAB",
    "manifest_version": 3,
    "minimum_chrome_version": "90",
-   "name": "ResearchQ",
+   "name": "Sci-Hub Multi",
    "permissions": [ "contextMenus", "tabs", "storage", "downloads", "history" ],
-   "short_name": "ResearchQ",
+   "short_name": "Sci-Hub Multi",
    "update_url": "https://clients2.google.com/service/update2/crx",
    "version": "1.1.5"
 }

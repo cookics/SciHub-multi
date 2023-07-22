@@ -33,8 +33,8 @@ chrome.runtime.onInstalled.addListener(async () => {
 chrome.contextMenus.onClicked.addListener(async (item, tab) => {
 
   if(item.menuItemId === "context-menu-scihub" || item.menuItemId === "context-menu-download"){
-    const availableUrls = ["https://sci-hub.hkvisa.net","https://sci-hub.ee"];
-    const baseUrl =  availableUrls[Math.floor(Math.random() * availableUrls.length)];
+   
+    const baseUrl =  "https://sci-hub.se"
     let url = item.selectionText ? new URL(`${baseUrl}/${item.selectionText}`) : new URL(`${baseUrl}/${item.linkUrl}`); 
 
     if(item.menuItemId === "context-menu-scihub"){
